@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact details</title>
+</head>
+<body>
+    <h3>Contact Me</h3> 
+    <ul>
+        <li>email: aswinvb10a@gmail.com</li>
+        <li>phno: 9188553902</li>
+        <li>address: Indeevaram, Choozhattukotta, Malayam P O, typm, kerala, India</li>
+    </ul>
+    <!-- this action happens when we press submit button in
+    below form -->
+    <!-- to remove % and symbols enctype="text/plain" -->
+    <form action="mailto:aswinvb10a@gmail.com" method="post" enctype="text/plain">
+        <label for="">Name: </label>
+        <input type="text" name="Name"><br>
+        <label for="">Email: </label>
+        <input type="email" name="Email"><br>
+        <label for="">Message</label><br>
+        <!-- need to put name="Message" to send the msg -->
+        <textarea name="Message" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit"> 
+        <!-- Name=Aswin V B
+Email=aswinvb10a@gmail.com
+Message=Hi I would like to collaborate with you in this project
+        ==> we add name="Name" which will be displayed in the message also -->
+    </form>
+</body>
+</html>
